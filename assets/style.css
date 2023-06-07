@@ -1,0 +1,56 @@
+h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 23px 22px 4px rgba(0,0,0,0.39);
+}
+#newitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: beige;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#toDo{
+    margin-right:20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 10px;
+
+    
+}
+
+#add{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid rgb(22, 22, 22);
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+.newList{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-bottom: 600px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+      box-shadow: 2px 23px 22px 4px rgba(0,0,0,0.39);
+}
