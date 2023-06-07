@@ -7,8 +7,8 @@ newItem.addEventListener('submit', function(e){
     newListItem.classList.add("newList")
     newListItem.innerHTML =   `
     <li>${addElementValue}</li>
-    <button type="button" id = "delete">  <i class="fal fa-times"></i></button>
-       
+    <button type="button" id = "delete" > X </button>
+    
     `
     const listDiv = document.querySelector('.list')
 
@@ -30,8 +30,8 @@ newItem.addEventListener('submit', function(e){
   }
 });
 
-      
-   addElement.value =""
+addElement.value =""
+ 
 })
 
 

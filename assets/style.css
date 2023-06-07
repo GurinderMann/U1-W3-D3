@@ -14,6 +14,7 @@ h1{
     box-shadow: 2px 23px 22px 4px rgba(0,0,0,0.39);
 }
 #newitem{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +24,8 @@ h1{
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 2px 23px 22px 4px rgba(0,0,0,0.39);
+   
 }
 #toDo{
     margin-right:20px ;
@@ -45,12 +48,39 @@ h1{
 }
 
 .newList{
+  
     display: flex;
     justify-content: center;
     background-color: aliceblue;
-    padding-bottom: 600px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-      box-shadow: 2px 23px 22px 4px rgba(0,0,0,0.39);
-}
+    box-shadow: 2px 23px 22px 4px rgba(0,0,0,0.39); }
+
+ li{
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding-right: 80px;
+    font-style: oblique;
+    border: none;
+    padding-bottom: 20px;
+     }
+
+ .completed {
+    text-decoration: line-through;
+  }
+
+  #delete{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 25px;
+   
+  } 
